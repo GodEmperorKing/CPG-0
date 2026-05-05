@@ -21,7 +21,7 @@ while True:
         break
 
     if choice in ('1', '2', '3', '4', '5', '6'):
-        # Options 5 and 6 only need one number
+        
         if choice in ('5', '6'):
             try:
                 num1 = float(input("Enter a number: "))
