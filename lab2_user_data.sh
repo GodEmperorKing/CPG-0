@@ -1,5 +1,12 @@
 #!/bin/bash
 
+### SCRIPT LOGIC & DELIVERABLE EXPLANATION
+### This script automates Apache installation via yum.
+### It uses a Linux "Here-Doc" (cat <<EOF >) to dynamically 
+### generate the index.html file with inline CSS and public 
+### image URLs directly into the web root in one execution.
+### No headache dealing with imagines, resizing etc and so forth.  
+
 Update the OS packages
 yum update -y
 
