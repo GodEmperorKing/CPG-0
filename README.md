@@ -16,7 +16,7 @@
 ![Upstream Connection Evidence](assets/Screenshot%202026-04-28%20200810.png)
 
 ### Lab Logic Explanation
-This foundational lab established the core Git workflows required for modern cloud engineering and DevOps. It involved creating isolated feature branches to write basic Python functions, staging and committing changes, and successfully executing a merge back into the main production branch. This simulates a standard, collaborative infrastructure-as-code pipeline.
+This foundational lab was interesting. I never encountered it. It established the core Git workflows required for modern Cloud Engineering and DevOps. It involved creating isolated feature branches to write basic Python functions, staging and committing changes, and successfully executing a merge with a contributor back into the main production branch. This simulates a standard, collaborative infrastructure-as-code pipeline. I look foward to "Danger Room" like practice doing this again...
 ---
 ## Lab 2: Automated EC2 Web Server Provisioning (CPGA2025)
 
@@ -31,8 +31,3 @@ This foundational lab established the core Git workflows required for modern clo
 
 **Live Web Server Rendering Custom User Data Script:**
 ![Live Web Server](assets/Screenshot%202026-05-08%20160859.png)
-
-### Script Logic Explanation
-This phase of the project fully automates the provisioning of an Apache web server upon EC2 boot.
-* The utility `yum` package manager commands to update the OS, install Apache (`httpd`), deepen configuration via the `systemctl` daemon, and configure a custom HTML landing page.
-* This mimics an immutable infrastructure approach where the server is fully configured without manual intervention.
