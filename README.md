@@ -1,3 +1,19 @@
+## Lab 1: Branching, Git, & Python Collaboration (CPGA2025)
+
+**Deliverables:**
+* **Version Control:** Managed branch creation, commits, and merge conflict resolution via Git and GitHub.
+* **Code Artifacts:** Python scripting collaboration (`app.py`, `greetings.py`).
+
+### Evidence of Execution
+
+**Git Branching & Merge History:**
+![Git Branching Evidence](Screenshot%202026-04-28%20200617.png)
+
+**Python Script Execution/Collaboration:**
+![Python Script Evidence](Screenshot%202026-04-28%20200737.png)
+
+### Lab Logic Explanation
+This foundational lab established the core Git workflows required for modern cloud engineering and DevOps. It involved creating isolated feature branches to write basic Python functions, staging and committing changes, and successfully executing a merge back into the main production branch. This simulates a standard, collaborative infrastructure-as-code pipeline.
 ---
 
 ## Lab 2: Automated EC2 Web Server Provisioning (CPGA2025)
