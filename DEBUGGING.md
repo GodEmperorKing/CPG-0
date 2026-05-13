@@ -3,7 +3,7 @@
 ## 1. Frontend Logic Error (index.html)
 * **Symptom:** The webpage loaded, but the greeting message did not display.
 * **Root Cause:** That `<h1>` tag on line 9 was left unclosed, causing the browser to misinterpret the trailing JavaScript block. 
-* **Fix:** Properly closed the `<h1 id="greeting-display">` tag and separated the async `fetch()` logic into a distinct script block.
+* **Fix:** Properly closed the `<h1 id="greeting-display">` tag and (I need more Python practice) separated the async `fetch()` logic into a distinct script block.
 
 ## 2. Infrastructure Connectivity (Security Groups)
 * **Symptom:** EC2 Instance Connect failed with a "Failed to connect" error.
