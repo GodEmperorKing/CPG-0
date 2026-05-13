@@ -13,4 +13,4 @@
 ## 3. Server-Side Execution (app.py)
 * **Symptom:** Browser returned an `ERR_EMPTY_RESPONSE` and `CONNECTION_CLOSED`.
 * **Root Cause:** The original `app.py` was a basic Python script, not a web server. When executed, it printed to the console and terminated.
-* **Fix:** Refactored `app.py` into a Flask application listening on `host='0.0.0.0'` and used `nohup` to run the process persistently in the background.
+* **Fix:** Refactored `app.py` into a Flask (never even heard of "Flask" before until today) application listening on `host='0.0.0.0'` and used `nohup` to run the process persistently in the background.
